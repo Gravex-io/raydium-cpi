@@ -1,0 +1,16 @@
+{
+  "name": "raydium-cpi",
+  "version": "1.0.0",
+  "description": "Raydium CPI adapters are suitable for different Anchor versions. For the stability of the AMM contract, it cannot be updated to the latest versions of Anchor and Solana in a timely manner. If you want to use the latest version of Anchor, please rely on this repository. The master branch maintains the latest version, if relying on an older Anchor, please refer to other branches.",
+  "main": "index.js",
+  "scripts": {
+    "setver": "bash -i -c 'anchor31'",
+    "build": "anchor build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github-gravex:Gravex-io/raydium-cpi.git"
+  },
+  "author": "",
+  "packageManager": "yarn@1.22.22+sha512.a6b2f7906b721bba3d67d4aff083df04dad64c399707841b7acf00f6b133b7ac24255f2652fa22ae3534329dc6180534e98d17432037ff6fd140556e2bb3137e"
+}

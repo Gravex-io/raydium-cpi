@@ -7,7 +7,7 @@ pub use context::*;
 use anchor_lang::prelude::*;
 
 #[cfg(feature = "devnet")]
-declare_id!("DLockwT7X7sxtLmGH9g5kmfcjaBtncdbUmi738m5bvQC");
+declare_id!("AU6XDsxg54UuVwRdjtuSSbLR3rXFbtr9nsS6o9whuHrp");
 #[cfg(not(feature = "devnet"))]
 declare_id!("LockrWmn6K5twhz3y9w1dQERbmgSaRkfnTeTKbpofwE");
 
